@@ -1,0 +1,1 @@
+document.getElementById("contactForm").addEventListener("submit",function(e){e.preventDefault();const n=document.getElementById("name").value;alert(`Thank you, ${n}! Your message has been received.`);this.reset();});
